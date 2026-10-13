@@ -2,6 +2,8 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
+<meta name="color-scheme" content="light only">
+<meta name="theme-color" content="#F6F4F7">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="OLTECH: perfil de Google Maps, web en español e inglés y asistente de WhatsApp para salones en Valencia.">
 <title>Estudio Nácar · Demo Google Maps</title>
@@ -18,14 +20,7 @@
   --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
   --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#141118; --surface:#1E1A24; --ink:#F1ECF4; --muted:#A79FB0; --line:#332C3B;
-  --lacquer:#E06E9C; --lacquer-soft:#3A1E2C; --brand:#E2B8DA; --pearl:linear-gradient(135deg,#2A2230,#1F2830 55%,#2B2720);
-  --ok:#5FCB97; --ok-soft:#1B3328; --bad:#F08A7E; --bad-soft:#3A1F1C; --wa:#3DBB84; --chat:#1A1D1B; --bubble:#262B28; --bubble-me:#1F4A33; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#141118; --surface:#1E1A24; --ink:#F1ECF4; --muted:#A79FB0; --line:#332C3B;
-  --lacquer:#E06E9C; --lacquer-soft:#3A1E2C; --brand:#E2B8DA; --pearl:linear-gradient(135deg,#2A2230,#1F2830 55%,#2B2720);
-  --ok:#5FCB97; --ok-soft:#1B3328; --bad:#F08A7E; --bad-soft:#3A1F1C; --wa:#3DBB84; --chat:#1A1D1B; --bubble:#262B28; --bubble-me:#1F4A33; color-scheme:dark}
+:root{color-scheme:light}
 
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font:400 16px/1.6 var(--body);padding-inline:20px;padding-block:0}
